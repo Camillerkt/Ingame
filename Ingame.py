@@ -1,34 +1,11 @@
-<<<<<<< HEAD
-#pip install deep-translator, pip install pynput, pip install pyautogui
-from deep_translator import GoogleTranslator
-from pynput.keyboard import Key, Controller, Listener
-from pyautogui import typewrite
-=======
 #pip install deep-translator, pip install pynput
 from deep_translator import GoogleTranslator
 from pynput.keyboard import Key, Controller, Listener
->>>>>>> 3ff60dc (v4)
 keyboard = Controller()
 
 phrase = ""
 start_traduction = False
 
-<<<<<<< HEAD
-def userInputWithDefaultValue(question, default_value):
-    print(question)
-    typewrite(default_value)
-    usersValue = input()
-    return usersValue
-
-"""
-starting_key : Don't touch to the 'Key'. Only change the alt_gr value with your key.
-select_all_the_written_message : you can change ctrl to cmd (if you are on MacOS) for example, or the a key with another letter
-"""
-usersTranslationDest = userInputWithDefaultValue('What language should you translate your messages into : ', 'en')
-usersStartingKey = userInputWithDefaultValue('Choose your stating key : ', 'Key<qlt8gr')
-usersSelectTheWrittenMessageKey = userInputWithDefaultValue('Choose your key combination to select your entire message in the chat : ', 'ctrl+q')
-usersKeyboardKeys = {'starting_key': usersStartingKey, 'select_all_the_written_message': usersSelectTheWrittenMessageKey }
-=======
 print('Read the documentation : https://ingame.camillerakoto.fr')
 print('\nNote : [...] are the default values')
 usersTranslationDest = input('\nWhat language should you translate your messages into [en] : ') or 'en'
@@ -36,7 +13,6 @@ usersStartingKey = input('\nChoose your starting key [Key.alt_r] : ') or 'Key.al
 usersSelectTheWrittenMessageKey = input('\nChoose your key combination to select your entire message in the chat [ctrl+a] : ') or 'ctrl+a'
 usersKeyboardKeys = {'starting_key': usersStartingKey, 'select_all_the_written_message': usersSelectTheWrittenMessageKey }
 print('\nNow, open your game and enjoy !')
->>>>>>> 3ff60dc (v4)
 
 def start(key):
     global phrase, start_traduction, usersKeyboardKeys
@@ -98,8 +74,4 @@ def enterTheEnglishTranslationOnTchat(translation):
         keyboard.release(char)
 
 with Listener(on_press=start) as l:
-<<<<<<< HEAD
     l.join()
-=======
-    l.join()
->>>>>>> 3ff60dc (v4)
