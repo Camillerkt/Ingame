@@ -29,7 +29,7 @@ def start(key):
         else:
             if key == 'Key.space':
                 key = ' '
-            if key == 'Key.shift_r' or key == 'Key.shift' or key == 'Key.backspace' or key == 'Key.ctrl' or key == 'Key.caps_lock':
+            if key == 'Key.shift_r' or key == 'Key.shift' or key == 'Key.backspace' or key == 'Key.ctrl' or key == 'Key.ctrl_l' or key == 'Key.ctrl_r' or key == 'Key.caps_lock':
                 key = ''
             if key == "Key.enter":
                 key = '\n'
