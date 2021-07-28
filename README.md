@@ -13,7 +13,7 @@ After installing these modules, all you have to do is launch the `Ingame.py` pro
 When you start the Ingame program, it will ask you to enter the following values:
 
 1. "What language should you translate your messages into": This is the destination language (https://ingame.camillerakoto.fr/docs/supported_languages.md)
-2. "Choose your stating key": Enter the key you will use to start the translation (a key you never use usually : https://ingame.camillerakoto.fr/docs/all_keys.md).
+2. "Choose your starting key": Enter the key you will use to start the translation (a key you never use usually : https://ingame.camillerakoto.fr/docs/all_keys.md).
 3. "Choose your key combination to select your entire message in the chat": Enter your key combination to select the entire content of what you have written in the chat text field.
 
 
