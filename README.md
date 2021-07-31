@@ -9,6 +9,8 @@ The first version uses Python to work. So we invite you to install Python on you
 
 After installing these modules, all you have to do is launch the `Ingame.py` program with Python.
 
+If you want to install the `Ingame.exe` version and not the Python one, please download Ingame from here : https://ingame.camillerakoto.fr
+
 # 🛠 How to configure it?
 When you start the Ingame program, it will ask you to enter the following values:
 
