@@ -14,7 +14,7 @@ When you start the Ingame program, it will ask you to enter the following values
 
 1. "What language should you translate your messages into": This is the destination language (https://ingame.camillerakoto.fr/docs/supported_languages.md)
 2. "Select a start key": Press the key you will use to start the translation on your keyboard (a key you never use usually).
-3. "Choose your key combination to select your entire message in the chat": Enter your key combination to select the entire content of what you have written in the chat text field.
+3. "Choose your key combination to select your entire message in the chat": Enter your key combination to select the entire content of what you have written in the chat text field (ctrl+a is the default value but type cmd+a if you are on MacOS).
 
 
 # 🚀 How do I start it?
