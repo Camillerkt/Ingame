@@ -9,8 +9,21 @@ start_traduction = False
 print('Read the documentation : https://ingame.camillerakoto.fr')
 print('\nNote : [...] are the default values')
 usersTranslationDest = input('\nWhat language should you translate your messages into [en] : ') or 'en'
-usersStartingKey = input('\nChoose your starting key [Key.alt_r] : ') or 'Key.alt_r'
-usersSelectTheWrittenMessageKey = input('\nChoose your key combination to select your entire message in the chat [ctrl+a] : ') or 'ctrl+a'
+print('\nSelect a start key. Press it directly on your keyboard : ')
+
+usersStartingKey = ''
+def defineStartingKey(key):
+    global usersStartingKey
+
+    key = str(key).replace("'", "")
+    print(f'\nSelected key : {key}')
+    usersStartingKey = key
+    
+    return False
+with Listener(on_press=defineStartingKey) as first_listener:
+    first_listener.join()
+
+usersSelectTheWrittenMessageKey = input('\nChoose your key combination to select your entire message in the chat [ctrl+a]\nNote : it can be cmd+a on MacOS : ') or 'ctrl+a'
 usersKeyboardKeys = {'starting_key': usersStartingKey, 'select_all_the_written_message': usersSelectTheWrittenMessageKey }
 print('\nNow, open your game and enjoy !')
 
