@@ -3,7 +3,7 @@ The Ingame tool allows gamers to translate anything they write in their native l
 
 
 # 💻 How to install it?
-The first version uses Python to work. So we invite you to install Python on your machine as well as the following modules:
+This version uses Python to work. So we invite you to install Python on your machine as well as the following modules:
 `pip install deep-translator`
 `pip install pynput`
 
