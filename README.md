@@ -9,13 +9,14 @@ This version uses Python to work. So we invite you to install Python on your mac
 
 After installing these modules, all you have to do is launch the `Ingame.py` program with Python.
 
-If you want to install the `Ingame Setup` version and not the Python one, please download Ingame from here : https://ingame.camillerakoto.fr
+If you want to install the `Ingame.exe` version and not the Python one, please download Ingame from here : https://ingame.camillerakoto.fr
+
 
 # 🛠 How to configure it?
 When you start the Ingame program, it will ask you to enter the following values:
 
 1. "What language should you translate your messages into": This is the destination language (https://ingame.camillerakoto.fr/docs/supported_languages.md)
-2. "Select a start key": Press the key you will use to start the translation on your keyboard (a key you never use usually).
+2. "Choose your starting key": Enter the key you will use to start the translation (a key you never use usually : https://ingame.camillerakoto.fr/docs/all_keys.md).
 3. "Choose your key combination to select your entire message in the chat": Enter your key combination to select the entire content of what you have written in the chat text field (ctrl+a is the default value but type cmd+a if you are on MacOS).
 
 
