@@ -9,7 +9,7 @@ This version uses Python to work. So we invite you to install Python on your mac
 
 After installing these modules, all you have to do is launch the `Ingame.py` program with Python.
 
-If you want to install the `Ingame.exe` version and not the Python one, please download Ingame from here : https://ingame.camillerakoto.fr
+If you want to install the `Ingame Setup` version and not the Python one, please download Ingame from here : https://ingame.camillerakoto.fr
 
 # 🛠 How to configure it?
 When you start the Ingame program, it will ask you to enter the following values:
@@ -24,4 +24,6 @@ Before playing your favourite game, **don't forget to launch the program**.
 To activate the translation of the text you are writing, press the start key you have selected and write your text. Once you have written your text in the chat (in your native language), **don't forget to press the start button again to finish translating the text**.
 Finally, the program will automatically replace what you have written in English (or other languages).
 
+
+In case of bugs, try restarting the program and changing your start key.
 When you have finished playing, close the program (Ingame).
